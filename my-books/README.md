@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React로 나의 책장 만들기 (TypeScript) 인강
 
 ### `npm start`
 
