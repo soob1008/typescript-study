@@ -1,46 +1,31 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Redux
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**redux**
+상태 업데이트와 관련된 로직을 효율적으로 관리하는 라이브러리
 
-### `npm test`
+**react-redux**
+redux 연동을 해서 사용하기 편리하도록 만든 라이브러리
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**redux-saga**
+리덕스의 미들웨어.
+러덕스가 액션을 수행하면 redux-saga에서 디스패치하여 redux의 액션을 가로챈 뒤,
+액션의 역할을 수행하고 다시 액션을 발행하여 데이터를 저장하거나 다른 이벤트를 수행시킵니다.
 
-### `npm run build`
+**redux-devtools-extension**
+리덕스 개발자 도구.
+현재 스토어의 상태를 개발자 도구에서 조회할 수 있고 지금까지 어떤 액션들이 디스패치 되었는지, 액션에 따라 상태가 어떻게 변화했는지 확인할 수 있습니다. 액션을 직접 디스패치할 수 도 있다.
+(크롬 웹스토어에서 확장 프로그램을 설치)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**redux-actions**
+createAction , handleAction 등의 함수를 제공하며 액션 생성 자동화, 분기 코드 간소화 등의 작업을 도와주는 역할을 한다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> npm i @types/react-redux @types/redux-actions -D
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### antd
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> npm i antd
+> npm i @ant-design/icons
