@@ -1,0 +1,16 @@
+{
+  "name": "typescript-init",
+  "version": "1.0.0",
+  "description": "Chrome's V8 Javascript Engin을 사용하여, 자바스크립트를 해석하고 OS 레벨에서의 API를 제공하는 서버사이드 용 자바스크립트 런타임 환경",
+  "main": "test.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "4.7.4"
+  }
+}
